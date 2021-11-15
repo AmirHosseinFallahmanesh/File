@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Demo.Core.Enitites\Demo.Core.Enitites.csproj" />
+    <ProjectReference Include="..\Demo.Core.Infrastructure\Demo.Core.Contract.csproj" />
+    <ProjectReference Include="..\Demo.Infrasture.Store\Demo.Infrasture.Store.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,27 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model OrderViewModel
+    <div>
+        viewCount : @ViewBag.viewerCount
+
+    </div>
+    <div class="container-fluid">
+
+        <div class="border border-danger bg-light d-block " style="height:150px">
+            <div>
+                <label>Oreder Code</label>
+                <label>@Model.OrderCpde</label>
+
+            </div>
+            <div>
+                <label>Sore List</label>
+                <select asp-for="Store" asp-items="Model.Stores"></select>
+
+            </div>
+
+        </div>
+  
+
+
+    </div>
